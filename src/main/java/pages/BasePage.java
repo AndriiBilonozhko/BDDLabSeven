@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class BasePage {
+public abstract class BasePage {
 
     @FindBy(xpath = "//span[contains(text(),'Sign in')]")
     private WebElement singInButton;

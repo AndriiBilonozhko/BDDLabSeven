@@ -7,17 +7,17 @@ import pages.BasePage;
 import pages.MainPage;
 
 public class CreateNewAccountStepDefs {
-
+    MainPage mainPage = new MainPage();
     @Given("I am on the main page")
     public void i_am_on_the_main_page() {
-        MainPage mainPage = new MainPage();
+
         mainPage.createDriver();
     }
 
     @When("I click on the Sing in Button")
     public void i_click_on_the_sing_in_button() {
-        BasePage basePage = new BasePage();
-        basePage.clickSingInButton();
+
+        mainPage.clickSingInButton();
     }
 
     @When("I click on the create new account button")
