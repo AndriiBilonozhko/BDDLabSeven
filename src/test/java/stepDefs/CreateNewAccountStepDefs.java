@@ -3,11 +3,13 @@ package stepDefs;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.testng.Assert;
+import org.assertj.core.api.Assertions;
+import org.junit.Assert;
 import pages.BasePage;
 import pages.LogInPage;
 import pages.MainPage;
 import pages.SingInPage;
+
 
 public class CreateNewAccountStepDefs {
 
@@ -17,7 +19,7 @@ public class CreateNewAccountStepDefs {
 
     @Given("I am on the main page")
     public void i_am_on_the_main_page() throws InterruptedException {
-
+       mainPage.openMainPage();
     }
 
     @When("I click on the Sing in Button")
@@ -25,6 +27,7 @@ public class CreateNewAccountStepDefs {
 
         mainPage.clickSingInButton();
     }
+
 
     @When("I click on the create new account button")
     public void i_click_on_the_create_new_account_button() {
@@ -76,9 +79,10 @@ public class CreateNewAccountStepDefs {
         logInPage.clickSaveButton();
     }
 
-    @Then("I see main page with login in the right top of the page")
-    public void i_see_main_page_with_login_in_the_right_top_of_the_page() {
-        mainPage.getTextFromUserLoginField();
+    @Then("I see main page with {string} in the right top of the page")
+    public void i_see_main_page_with_login_in_the_right_top_of_the_page(String expectedResult) {
+
+        Assertions.assertThat(mainPage.getTextFromUserLoginField()).isEqualTo(expectedResult);
     }
 
 

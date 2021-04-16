@@ -13,5 +13,5 @@ Feature: createNewAccount
     And  click on the Customer Privacy Button
     And  click on the click Agree Button
     And  click on the click Save Button
-    Then I see main page with login in the right top of the page
+    Then I see main page with 'Andrii Bilonozhko' in the right top of the page
 

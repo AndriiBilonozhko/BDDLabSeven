@@ -45,17 +45,15 @@ public class LogInPage extends BasePage {
         PageFactory.initElements(getDriver(), this);
     }
 
-    LogInPage logInPage=new LogInPage();
 
-    public void fillRegistrationForm(String firstName, String lastName, String email, String password, String birthdayDate){
-
-        logInPage.inputFirstName(firstName);
-        logInPage.inputLastName(lastName);
-        logInPage.inputEmail(email);
-        logInPage.inputPassword(password);
-        logInPage.inputBirthdayDate(birthdayDate);
-
-    }
+//    public void fillRegistrationForm(String firstName, String lastName, String email, String password, String birthdayDate){
+//        this.inputFirstName(firstName);
+//        this.inputLastName(lastName);
+//        this.inputEmail(email);
+//        this.inputPassword(password);
+//        this.inputBirthdayDate(birthdayDate);
+//
+//    }
 
 
 

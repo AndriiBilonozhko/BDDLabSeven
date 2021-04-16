@@ -27,7 +27,8 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:7.4.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.78" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.webjars:jquery:3.5.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-java:6.10.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-junit:6.10.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-core:6.10.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-gherkin:6.10.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-gherkin-messages:6.10.2" level="project" />
@@ -39,7 +40,9 @@
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:docstring:6.10.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:html-formatter:12.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:create-meta:3.0.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-java:6.10.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.19.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:4.0.0-beta-2" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:4.0.0-beta-2" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.0.0-beta-2" level="project" />
